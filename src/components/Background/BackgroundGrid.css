@@ -1,0 +1,15 @@
+.columns {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.col {
+    min-height: 100vh;
+    background: transparent;
+    box-shadow: -1px 0 #6F87A020;
+    flex-grow: 1;
+    width: calc(100% / 12);
+}

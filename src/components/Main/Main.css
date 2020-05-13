@@ -1,0 +1,126 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 150vh;
+    min-height: 100vh;
+}
+
+.main .main__1, .main__2, .main__3 {
+    display: inherit;
+    flex-direction: column;
+    z-index: 3;
+    background: white;
+    border: 1px solid #6F87A020;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.main p {
+    text-align: justify;
+}
+
+.main a {
+    background-image: linear-gradient(#FE5568 50%, #FE5568 50%), linear-gradient(silver 50%, silver 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    color: #1E3A52;
+    padding-bottom: 3px;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+}
+
+.main a:hover {
+    background-size: 100% 2px, 100% 2px;
+    color: #FE5568;
+}
+
+.main__car {
+    z-index: 5;
+}
+
+.main__car .car__ford{
+    width: 100vh;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.main__car .car__nissan{
+    float: right;
+    width: 100vh;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .main {
+        width: 125vh;
+    }
+
+    .main__car .car__ford{
+        width: 80vh;
+    }
+
+    .main__car .car__nissan{
+        width: 80vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        width: 65vh;
+    }
+
+    .main__car .car__ford{
+        width: 45vh;
+    }
+
+    .main__car .car__nissan{
+        width: 45vh;
+    }
+
+    .main h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+    .main {
+        width: 40vh;
+    }
+
+    .main__car .car__ford{
+        width: 40vh;
+    }
+
+    .main__car .car__nissan{
+        width: 40vh;
+    }
+
+    .main h1{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .main {
+        width: 50vh;
+    }
+
+    .main__car .car__ford{
+        width: 45vh;
+    }
+
+    .main__car .car__nissan{
+        width: 45vh;
+    }
+
+    .main h1{
+        font-size: 18px;
+    }
+}

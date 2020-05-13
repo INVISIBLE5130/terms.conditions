@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: flex-start;
+    z-index: 2;
+    padding: 5%;
+}
+
+.header__logo {
+    width: 50vh;
+}
+
+.header__car {
+    width: 100vh;
+    margin-left: 5%;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
+    .header__logo {
+        width: 45vh;
+    }
+
+    .header__car {
+        width: 95vh;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .header__logo {
+        width: 35vh;
+    }
+
+    .header__car {
+        width: 80vh;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header__logo {
+        width: 20vh;
+    }
+
+    .header__car {
+        width: 40vh;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        width: 20vh;
+    }
+
+    .header__car {
+        width: 40vh;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        width: 30vh;
+    }
+
+    .header__car {
+        width: 45vh;
+    }
+}
