@@ -324,7 +324,7 @@ class Main extends Component{
                         Якщо у вас є питання, що стосуються використання цього Веб-сайту
                         або послуг Adrenaline Drive будь ласка зв'яжіться з нами
                         за адресою електронної пошти:⠀<br/><br/>
-                        <a href="#">info@a-drive.com.ua</a>
+                        <a href="mailto:info@a-drive.com.ua">info@a-drive.com.ua</a>
                     </p>
 
                     <p>Остання зміна 18 квітня 2020</p>
