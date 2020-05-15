@@ -152,7 +152,7 @@ class Main extends Component{
 
                 <div className="main__car">
                     <img
-                        src={require("../../img/ford.webp")}
+                        src={require("../../img/ford.png")}
                         alt="Ford"
                         className="car__ford"/>
                 </div>
@@ -253,7 +253,7 @@ class Main extends Component{
 
                 <div className="main__car">
                     <img
-                        src={require("../../img/nissan.webp")}
+                        src={require("../../img/nissan.png")}
                         alt="Nissan"
                         className="car__nissan"/>
                 </div>

@@ -10,7 +10,7 @@ class Header extends Component{
                     alt="Logo"
                     className="header__logo"/>
                 <img
-                    src={require("../../img/lamb.webp")}
+                    src={require("../../img/lamb.png")}
                     alt="Lamborghini"
                     className="header__car"/>
             </div>
